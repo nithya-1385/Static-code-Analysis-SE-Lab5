@@ -1,12 +1,12 @@
-# 🧩 Lab 5 – Static Code Analysis
+# Lab 5 – Static Code Analysis
 
-## 🎯 Objective
+## Objective
 
 To enhance Python code quality, security, and style by using **static analysis tools**:*Pylint*, *Bandit*, and *Flake8* to detect and fix common programming issues in the given `inventory_system.py` file.
 
 ---
 
-## 🧰 Tools Used
+## Tools Used For The Lab
 
 | Tool       | Purpose                                                   |
 | ---------- | --------------------------------------------------------- |
@@ -16,7 +16,7 @@ To enhance Python code quality, security, and style by using **static analysis t
 
 ---
 
-## 🧾 Known Issues Table
+## Known Issues Table
 
 | **Issue**                                                | **Type**                  | **Tool(s)**                                  | **Line(s)**                                          | **Description**                                                        | **Fix Approach**                                                                                                                                                                               |
 | -------------------------------------------------------- | ------------------------- | -------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -88,7 +88,7 @@ README.md : README file lissues of the code + Reflection questions based on the 
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Through this lab, I learned how static code analysis ensures **quality, security, and maintainability**.
 By using **Pylint, Flake8, and Bandit**, I identified and resolved a wide range of issues — from naming and documentation to logic and security.
