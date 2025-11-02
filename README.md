@@ -34,29 +34,29 @@ To enhance Python code quality, security, and style by using **static analysis t
 
 ---
 
-## 🪞 Reflection questions:
+## Reflection questions:
 
-### 1️⃣ Which issues were the easiest to fix, and which were the hardest? Why?
+### 1️. Which issues were the easiest to fix, and which were the hardest? Why?
 
 The easiest issues were adding docstrings, fixing spacing, and renaming functions to follow `snake_case`. The problems were straightforward and were mainly documentation changes.
 The hardest issues were related to handling mutable default arguments and restructuring file operations with context managers because of how Python handles mutable objects and resource management.
 
 ---
 
-### 2️⃣ Did the static analysis tools report any false positives?
+### 2️. Did the static analysis tools report any false positives?
 
 There were no clear false positives. However, some style suggestions such as iterating with `.items()` were technically optional.They did not cause bugs, but improved efficiency.
 
 ---
 
-### 3️⃣ How would you integrate static analysis tools into your actual software development workflow?
+### 3️. How would you integrate static analysis tools into your actual software development workflow?
 
 Static analysis tools like **Pylint**, **Bandit**, and **Flake8** can be integrated into a **Continuous Integration (CI)** pipeline using GitHub Actions or pre-commit hooks.
 Each commit or pull request could automatically run these tools to ensure that no new code violates style or security guidelines before merging.
 
 ---
 
-### 4️⃣ What tangible improvements did you observe in the code quality, readability, or potential robustness after applying the fixes?
+### 4️. What tangible improvements did you observe in the code quality, readability, or potential robustness after applying the fixes?
 
 After applying the fixes:
 
@@ -68,7 +68,7 @@ After applying the fixes:
 
 ---
 
-## 📦 Final Deliverables
+## Final Deliverables
 
 The repository contains the following files:
 
